@@ -1,6 +1,8 @@
 # SASS Base by Luis Melo
 
-This project is intended to be used in several projects. This codebase includes:
+This code base is intended to be used as a basis for your project, using SASS.
+
+Includes:
 * Mixins
   * Media Queries
   * Animations with keyframes
@@ -13,6 +15,25 @@ This project is intended to be used in several projects. This codebase includes:
   * Calculated REM font-size
 * Margins and paddings with 5px steps
 * Colors functions to display with variants
+
+# Install
+
+```npm install sass-base-lm --save-dev``` 
+
+or 
+
+```yarn add sass-base-lm --dev```
+
+# Use
+
+In your root SASS file, just require the `styles.scss`:
+```
+//  Without Webpack
+@import 'node_modules/sass-base-lm/assets/styles';
+
+//  With Webpack
+@import '~/node_modules/sass-base-lm/assets/styles';
+```
 
 ## License
 
