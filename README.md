@@ -23,7 +23,7 @@ or
 
 # Import to your SASS project
 
-In your root SASS file, just require the `styles.scss`:
+In your SASS root file, just require the `styles.scss`:
 ```
 //  Without Webpack
 @import 'node_modules/sass-base-lm/assets/styles';
