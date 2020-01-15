@@ -26,7 +26,7 @@
 /* Styling
    ========================================================================== */
 @function calculateRem($size) {
-  $remSize: $size / 10px;
+  $remSize: $size / 16px;
   @return $remSize * 1rem;
 }
 
