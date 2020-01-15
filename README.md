@@ -65,7 +65,7 @@ Create a media query where the min-width will be equal to the `dimension1` value
 
 ### font-size(size: **string**)
 
-Converts a pixel based size to REM and returns both values in order to be backward compatible.
+Converts a pixel based size to REM and returns both sizes (px and rem) in order to be backward compatible.
 
 ## Classes
 
@@ -85,7 +85,7 @@ The element represents the side of the element that the style will be applied:
 
 The modifier represents the amount of pixels that will be set for that side. The pixels can be applied using a step of 5px, and can be used on a range from 5px to 60px.
 
-The end class will be something like `margin__topbottom--45`. This example will apply a margin of 45px to the top a bottom of an element.
+The end class will be something like `margin__topbottom--45`. This example will apply a margin of 45px to the top and bottom of an element.
 
 ## Functions
 
