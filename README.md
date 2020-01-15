@@ -1,5 +1,7 @@
 # SASS Base by Luis Melo
 
+[![npm](https://img.shields.io/npm/v/sass-base-lm?color=%2343BD15)](https://www.npmjs.com/package/sass-base-lm)
+
 This code base is intended to be used as a basis for your project, using SASS.
 
 # Table of Contents
